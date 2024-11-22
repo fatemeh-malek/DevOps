@@ -1,8 +1,8 @@
-#Step1:
+
 #Create a directory for the project:
 mkdir composetest
 cd composetest
-#Step2:
+
 #Create a file called app.py in your project directory 
 sudo nano app.py
 #and paste the following code in:
@@ -33,7 +33,6 @@ def hello():
 
 #In this example, redis is the hostname of the redis container on the application's network 
 and the default port, 6379 is used.
-#Step3:
 #Create another file called requirements.txt in your project directory 
 sudo nano requirements.txt
 #and paste the following code in:
