@@ -1,0 +1,8 @@
+#Create a file called compose.yaml in your project directory and paste the following:
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+  redis:
+    image: "redis:alpine"
