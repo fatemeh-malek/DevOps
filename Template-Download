@@ -32,5 +32,12 @@ VOLUME /var/log/apache2
 ADD login.tar.gz /var/www/html 
 #Create Image
 sudo docker build -t loginimg .
+#list the image 
+docker images
+#create container from created image
+sudo docker run -d --name login-webpage -p 9080:80 loginimg
+#status of container
+docker ps
+#you can see the website on http://host ip:9080/
 
   
