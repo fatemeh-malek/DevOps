@@ -21,7 +21,7 @@ cd login
 sudo nano Dockerfile 
 #Copy bellow code in Dockerfile
 FROM ubuntu:latest
-LABEL "Author" = "Fatemeh Malek"
+LABEL "Author"="Fatemeh Malek"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install git -y
 RUN apt install apache2 -y
